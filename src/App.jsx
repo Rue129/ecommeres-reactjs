@@ -1,10 +1,12 @@
-import './App.css';
+import Info from '@components/Info/Info';
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
     return (
-        <div>
-            <h2>Ecommerse</h2>
-        </div>
+        <>
+            <HomePage />
+            <Info />
+        </>
     );
 }
 
